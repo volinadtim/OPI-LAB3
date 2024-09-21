@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config version="2.2"
+              xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_3.xsd">
+    <managed-bean>
+        <managed-bean-name>rifle</managed-bean-name>
+        <managed-bean-class>my.web.Shotgun</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+
+    <application>
+        <locale-config>
+            <default-locale>en</default-locale>
+        </locale-config>
+        <resource-bundle>
+            <base-name>msgss</base-name>
+            <var>msgs</var>
+        </resource-bundle>
+    </application>
+</faces-config>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="volin" name="TargetAreaCircleTest" skipped="0" tests="1" time="0.098" timestamp="2024-09-21T08:12:13">
+  <properties>
+    <property name="ant.library.dir" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.3\lib\ant\lib" />
+    <property name="java.specification.version" value="21" />
+    <property name="ant.project.name" value="lab3" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1251" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="native2ascii.resources" value="src/main/resources/native2ascii" />
+    <property name="java.vendor.url" value="https://java.oracle.com/" />
+    <property name="resources.dir" value="src/main/resources" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TargetAreaCircleTest skipNonTests=false filtertrace=true haltOnError=true haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\Documents\itmo\OPI\lab3\reports\TEST-TargetAreaCircleTest.xml crashfile=D:\Documents\itmo\OPI\lab3\junitvmwatcher6022315657926841134.properties propsfile=D:\Documents\itmo\OPI\lab3\junit14605587341245928652.properties" />
+    <property name="test.classes.dir" value="ant/build/test/classes" />
+    <property name="env.SCP_USER" value="s368086" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.stderr.encoding" value="UTF-8" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="web.dir" value="src/main/webapp" />
+    <property name="java.version.date" value="2023-09-19" />
+    <property name="java.home" value="C:\Program Files\Java\jdk-21" />
+    <property name="contrib" value="lib/ant-contrib-1.0b3.jar" />
+    <property name="basedir" value="D:\Documents\itmo\OPI\lab3" />
+    <property name="file.separator" value="\" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="sun.stdout.encoding" value="UTF-8" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="build.cache" value="ant/build/cache" />
+    <property name="user.script" value="" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="21+35-LTS-2513" />
+    <property name="user.name" value="volin" />
+    <property name="build.classes.dir" value="ant/build/WEB-INF/classes" />
+    <property name="main_class" value="NoClass" />
+    <property name="music.success.file" value="./music/yes-3-v.wav" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="build.javadoc.dir" value="ant/build/javadoc" />
+    <property name="build.dir" value="ant/build" />
+    <property name="java.io.tmpdir" value="C:\Users\volin\AppData\Local\Temp\" />
+    <property name="remote.server.dir" value="s368086:Alino4ka@se.ifmo.ru:~/web/lab3-scp" />
+    <property name="java.version" value="21" />
+    <property name="svn.repo.url" value="qwewqe" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.3\lib\ant" />
+    <property name="ant.dir" value="ant" />
+    <property name="lib.dir" value="lib" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="native.encoding" value="Cp1251" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\volin\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\MATLAB\R2023b\runtime\win64;C:\Program Files\MATLAB\R2023b\bin;C:\Program Files (x86)\Common Files\Propellerhead Software\ReWire\;C:\Program Files\Common Files\Propellerhead Software\ReWire\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Users\volin\AppData\Roaming\local\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\volin\AppData\Local\pnpm;C:\Users\volin\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\volin\AppData\Local\Programs\Python\Python312\;C:\Users\volin\AppData\Local\Microsoft\WindowsApps;C:\Users\volin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.3\bin;;C:\Users\volin\AppData\Local\Yarn\bin;C:\Program Files\PostgreSQL\16\bin;C:\Users\volin\AppData\Roaming\npm;C:\Users\volin\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Java\apache-maven-3.9.5\bin;C:\Program Files\Tesseract-OCR;C:\Users\volin\.dotnet\tools;C:\Program Files\gcc\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\Apache Ant\bin;;." />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="stderr.encoding" value="Cp1251" />
+    <property name="svn.revision" value="qwewqe" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="ant.file.type" value="file" />
+    <property name="junit.report.dir" value="reports" />
+    <property name="java.class.path" value="D:\Documents\itmo\OPI\lab3\lib\junit-4.13.2.jar;D:\Documents\itmo\OPI\lab3\lib\hamcrest-core-1.3.jar;D:\Documents\itmo\OPI\lab3\ant\build\WEB-INF\classes;D:\Documents\itmo\OPI\lab3\ant\build\test\classes;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.3\lib\ant\lib\ant.jar" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="user.variant" value="" />
+    <property name="ant.file.lab3" value="D:\Documents\itmo\OPI\lab3\build.xml" />
+    <property name="os.name" value="Windows 11" />
+    <property name="java.vm.specification.version" value="21" />
+    <property name="report.name" value="test.xml" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="RU" />
+    <property name="test.dir" value="src/test/java" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\Users\volin" />
+    <property name="user.language" value="ru" />
+    <property name="remote.server.host" value="se.ifmo.ru" />
+    <property name="ant.java.version" value="21" />
+    <property name="main.dir" value="src/main/java" />
+    <property name="build.diff" value="ant/build/breaking-diff.txt" />
+    <property name="classes" value="./build/classes" />
+    <property name="alt.dir" value="src/alt/java" />
+    <property name="ant.file" value="D:\Documents\itmo\OPI\lab3\build.xml" />
+    <property name="stdout.encoding" value="Cp1251" />
+    <property name="path.separator" value=";" />
+    <property name="env.SCP_PASSWORD" value="Alino4ka" />
+    <property name="os.version" value="10.0" />
+    <property name="remote.server.port" value="2222" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="build.web.xml" value="ant/build/WEB-INF/web.xml" />
+    <property name="ant.project.invoked-targets" value="report" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="ant.core.lib" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.3\lib\ant\lib\ant.jar" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="junit" value="lib/junit-4.13.2.jar" />
+    <property name="user.dir" value="D:\Documents\itmo\OPI\lab3" />
+    <property name="os.arch" value="amd64" />
+    <property name="build.dir.lib" value="ant/build/WEB-INF/lib" />
+    <property name="ant.file.type.lab3" value="file" />
+    <property name="music.fail.file" value="./music/no-3-v.wav" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="build" value="./build" />
+    <property name="java.vm.version" value="21+35-LTS-2513" />
+    <property name="build.jar" value="lab3.jar" />
+    <property name="hamcrest" value="lib/hamcrest-core-1.3.jar" />
+    <property name="java.class.version" value="65.0" />
+    <property name="src.dir" value="src/main" />
+    <property name="ant.project.default-target" value="build" />
+  </properties>
+  <testcase classname="TargetAreaCircleTest" name="testHit" time="0.002" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

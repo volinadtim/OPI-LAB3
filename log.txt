@@ -1,0 +1,36 @@
+Buildfile: D:\Documents\itmo\OPI\lab3\build.xml
+  [typedef] Could not load definitions from resource org/tigris/subversion/svnant/svnantlib.xml. It could not be found.
+
+clean:
+     [echo] ***** CLEAN STARTED *****
+   [delete] Deleting directory D:\Documents\itmo\OPI\lab3\ant\build
+     [echo] ***** CLEAN COMPLETED *****
+
+compile:
+     [echo] ***** COMPILE STARTED *****
+    [mkdir] Created dir: D:\Documents\itmo\OPI\lab3\ant\build\WEB-INF\classes
+    [mkdir] Created dir: D:\Documents\itmo\OPI\lab3\ant\build\test\classes
+    [javac] Compiling 16 source files to D:\Documents\itmo\OPI\lab3\ant\build\WEB-INF\classes
+    [javac] Note: Annotation processing is enabled because one or more processors were found
+    [javac]   on the class path. A future release of javac may disable annotation processing
+    [javac]   unless at least one processor is specified by name (-processor), or a search
+    [javac]   path is specified (--processor-path, --processor-module-path), or annotation
+    [javac]   processing is enabled explicitly (-proc:only, -proc:full).
+    [javac]   Use -Xlint:-options to suppress this message.
+    [javac]   Use -proc:none to disable annotation processing.
+    [javac] Note: D:\Documents\itmo\OPI\lab3\src\main\java\my\web\LocaleBean.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+     [echo] ***** COMPILE COMPLETED *****
+
+build:
+     [echo] ***** BUILD STARTED *****
+     [copy] Copying 21 files to D:\Documents\itmo\OPI\lab3\ant\build
+     [copy] Copying 38 files to D:\Documents\itmo\OPI\lab3\ant\build\WEB-INF\lib
+     [copy] Copying 8 files to D:\Documents\itmo\OPI\lab3\ant\build\WEB-INF\classes
+      [jar] Building jar: D:\Documents\itmo\OPI\lab3\ant\build\lab3.jar
+      [war] Building war: D:\Documents\itmo\OPI\lab3\ant\build\lab3.war
+     [echo] ***** BUILD COMPLETED *****
+
+env:
+     [java] Error: Could not find or load main class jakarta.faces.webapp.FacesServlet
+     [java] Caused by: java.lang.ClassNotFoundException: jakarta.faces.webapp.FacesServlet
